@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="js/player.js"></script>
+<style>
+h1 {
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+  <div class="container" style="width: 650px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="player_content" style="display: none;">
+        <!-- <div id="player_content" > -->
+          <h1 id="player_name"></h1>
+          <br> 
+          <br>
+
+          <h2> Information </h2>
+          <table class="table">
+            <thead>
+              <tr>
+              <th scope="col", id="player_club_name"></th>
+              <th scope="col", id="player_weekly_wage"></th>
+              <th scope="col", id="player_buyout_clause"></th>
+              </tr>              
+            </thead>
+          </table>
+          <br>
+
+          <h2> Offers </h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Club Name</th>
+                <th scope="col">Weekly Wage</th>
+                <th scope="col">Buyout Clause</th>
+                <th scope="col">Decision</th>
+              </tr>
+            </thead>
+            <tbody id="OffersForPlayer">
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
